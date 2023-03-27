@@ -18,6 +18,16 @@ return require('packer').startup(function(use)
   use {"akinsho/toggleterm.nvim", tag = '*', config = function()
       require("toggleterm").setup()
   end}
+  
+  use {
+      'phaazon/hop.nvim',
+      branch = 'v2', -- optional but strongly recommended
+      config = function()
+          -- you can configure Hop the way you like here; see :h hop-config
+          -- require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
+          quit_key = '<leader>'
+      end
+  }
 
   use "rebelot/kanagawa.nvim"
 

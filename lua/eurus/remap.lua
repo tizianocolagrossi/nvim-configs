@@ -16,3 +16,5 @@ vim.keymap.set('n', '<CR><CR>', ':')
 vim.keymap.set('n', '<leader>el', '$')
 
 vim.keymap.set('n', '<leader>ot', ':OneTerm term\n')
+
+vim.keymap.set('n', '<leader>h', ':HopWord\n')
